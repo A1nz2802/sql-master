@@ -28,3 +28,10 @@
 - **Índices**: Explicación de cómo crear y utilizar índices para mejorar el rendimiento de las consultas.
 - **Eliminaciones y Actualizaciones en Cascada**: Discusión sobre cómo funcionan las acciones automáticas de eliminación y actualización en cascada en las relaciones de bases de datos.
 - **Otros Tipos de Acciones Automáticas**: Descripción de otras acciones automáticas, como RESTRICT y SET NULL, en el contexto de llaves foráneas.
+
+## Sección 4: Mantenimiento y Operaciones en Bases de Datos
+
+- **Actualizaciones Masivas**: Llevar a cabo actualizaciones en masa en una base de datos. Esto incluirá la modificación de múltiples registros al mismo tiempo, así como la optimización de consultas de actualización para evitar impactos negativos en el rendimiento.
+- **Creación y Volcado de Información**: Crear nuevas tablas y cómo cargar información en ellas desde diversas fuentes. Esto es especialmente importante cuando se integra nueva información en una base de datos existente o se migra a una nueva plataforma.
+- **Alteración de Índices y Checks**: Detallar la modificación de índices existentes para mejorar el rendimiento de las consultas y cómo ajustar restricciones CHECK para mantener la integridad de los datos en situaciones cambiantes.
+- **Eliminación de Checks**: Explorar el proceso de eliminación de restricciones CHECK cuando ya no son necesarias o relevantes para la base de datos.
