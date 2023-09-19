@@ -44,7 +44,7 @@
 - **AGGREGACIONES + JOINS**: Funciones de agregación como COUNT, SUM y AVG en combinación con joins para realizar cálculos de resumen en conjuntos de datos relacionados.
 - **Múltiples Joins**: Exploración de casos más avanzados que involucran múltiples joins en una sola consulta.
 
-## Sección 6: Trabajo con Fechas en PostgreSQL
+## Sección 6: Trabajo con Fechas
 
 - **Tipo de Dato Date**: Introducción al tipo de dato Date en PostgreSQL, utilizado para mantener referencias a fechas y realizar cálculos relacionados con ellas.
 - **Intervalos**: Aprender sobre los intervalos de tiempo y cómo se utilizan en PostgreSQL para calcular diferencias entre fechas, rangos de tiempo y más.
@@ -79,3 +79,31 @@
 - **Vistas Materializadas**: Explorar las vistas materializadas, que son una variante de las vistas tradicionales. A diferencia de las vistas normales, las vistas materializadas almacenan físicamente los resultados de las consultas, lo que las hace ideales para mejorar el rendimiento en consultas repetitivas.
 - **Common Table Expressions (CTE)**: Comprender cómo utilizar CTE, que son consultas temporales que se definen en el contexto de una consulta principal. Las CTE son especialmente útiles para consultas recursivas y para dividir consultas complejas en partes más manejables.
 - **CTE Recursivos**: Crear CTE recursivas, que son una forma poderosa de realizar consultas jerárquicas en bases de datos, utilizar CTE recursivos para problemas como la jerarquía de empleados o la búsqueda en árboles de datos.
+
+## Sección 10: Funciones
+
+- **Creación de Funciones**: Crear y reemplazar funciones en PostgreSQL para encapsular la lógica de negocios y reutilizar código.
+- **Argumentos y Tipos**: Definir argumentos y especificar tipos de datos en las funciones para hacerlas flexibles y versátiles.
+- **Almacenamiento de Datos**: Explorar el uso de variables en tus funciones para almacenar y manipular datos de manera efectiva.
+- **Registros y Variables Compuestas**: Trabajar con registros completos o variables compuestas, manejar conjuntos de datos complejos.
+- **Retorno de Valores**: Especificar el valor de retorno de una función y devolver datos resultantes.
+- **Manejo de Excepciones**: Manejar excepciones y errores de manera controlada.
+- **Condiciones y Control de Flujo**: Usar declaraciones condicionales y control de flujo para tomar decisiones lógicas y realizar acciones específicas.
+- **Lenguaje plpgsql**: Todas las funciones que crearás en esta sección se basarán en el lenguaje plpgsql, un lenguaje estructurado que te permitirá crear funciones de manera efectiva.
+
+## Sección 11: Procedimientos Almacenados
+
+- **Escritura de Procedimientos Almacenados**: Escribir procedimientos almacenados en PostgreSQL y cómo se estructuran.
+- **Sintaxis de Procedimientos**: Explorar la sintaxis necesaria para crear y ejecutar procedimientos almacenados.
+- **Variables en Procedimientos**: Declarar y utilizar variables en procedimientos almacenados para el almacenamiento temporal de datos.
+- **Argumentos en Procedimientos**: Comprender como pasar argumentos a los procedimientos almacenados para hacerlos flexibles y reutilizables.
+- **Commit y Rollback**: Instrucciones COMMIT y ROLLBACK y cómo se utilizan para confirmar o deshacer las transacciones en procedimientos almacenados.
+- **Raise Notice**: Uso de RAISE NOTICE para emitir mensajes informativos y depurar tus procedimientos almacenados.
+- **Llamado de Funciones en Procedimientos**: Utilizar funciones dentro de procedimientos almacenados para reutilizar la lógica de negocio existente.
+
+## Sección 12: Triggers
+
+- **Disparadores (Triggers)**: Aprender cómo crear y utilizar disparadores en PostgreSQL. Descubrir cómo definir cuándo y cómo se deben ejecutar las acciones en respuesta a eventos en la base de datos.
+- **Sintaxis de Disparadores**: Explorar la sintaxis necesaria para definir disparadores y las diferentes opciones disponibles para configurar su comportamiento.
+- **Eventos Disparadores Comunes**: Ejemplos prácticos de eventos comunes que pueden desencadenar acciones automáticas en la base de datos, como la actualización de campos o la eliminación de registros.
+- **Seguridad en PostgreSQL**: Instalar y utilizar una extensión para encriptar y validar contraseñas directamente en PostgreSQL, proporcionando una capa adicional de seguridad.
